@@ -1,1 +1,28 @@
 /* Add CSS Styling */
+
+.number-1 {
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", "sans-serif";
+}
+
+#number-2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.number-3 {
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", "sans-serif";
+    font-size: 24px;
+}
+
+#number-4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.number-5 {
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", "sans-serif";
+}
