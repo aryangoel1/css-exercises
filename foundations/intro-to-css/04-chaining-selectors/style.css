@@ -1,1 +1,12 @@
 /* Add CSS Styling */
+
+/* how to select element with both classes applied -> not the same as descendant combinator*/
+.avatar.proportioned {
+    width: 300px;
+    height: 300px;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
