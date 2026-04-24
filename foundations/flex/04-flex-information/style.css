@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solution */
+
+.title {
+  text-align: center;
+}
+
+.plants {
+  display: flex; 
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 50px; 
+}
+
+.text {
+  width: 200px;
+  text-align: center;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

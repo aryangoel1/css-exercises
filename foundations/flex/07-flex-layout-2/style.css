@@ -27,3 +27,61 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Solution */
+body {
+  display: flex;
+  flex-direction: column; 
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  /* Space out list items */
+  margin-bottom: 16px;
+}
+.header {
+  display: flex; 
+  align-items: center; 
+  font-size: 32px; 
+  font-weight: 900; 
+}
+.main-content {
+  display: flex;
+  /* Used only on a flex item, not parent, to fill out container. In this case, body container */ 
+  flex: 1;
+}
+
+.sidebar {
+  /* Default size before growing/shrinking */
+  flex-basis: 300px; 
+  flex-shrink: 0; 
+}
+
+.cards {
+  display: flex; 
+  /* Make children wrap to new line if not enough space */
+  flex-wrap: wrap; 
+  
+  /* Add padding inside the cards container */
+  padding: 48px; 
+  gap: 32px;
+}
+
+.card {
+  padding: 16px; 
+  width: 300px; 
+}
+
+.footer {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
